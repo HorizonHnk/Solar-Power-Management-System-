@@ -152,4 +152,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Email: hhnk3693@gmail.com
 
-Project Link: [https://github.com/HorizonHnk/Solar-Power-Management-System](https://github.com/HorizonHnk/Solar-Power-Management-System)
+Project Link: [https://github.com/HorizonHnk/Solar-Power-Management-System-.git](https://github.com/HorizonHnk/Solar-Power-Management-System-.git)
