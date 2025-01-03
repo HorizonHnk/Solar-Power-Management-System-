@@ -1,116 +1,71 @@
-Solar-Power-Management-System
+# Solar-Power-Management-System 🌞
 
-A comprehensive solar power system implementation with inverter and smart switching capabilities
+[![YouTube Tutorial Series](https://img.shields.io/badge/YouTube-Tutorial_Series-red)](https://youtube.com/playlist?list=PLrZbkNpNVSwwD_J9fIVuv-2wGcsEDiuHB&si=SqdfEML56xazd_Uh)
 
-📺 Video Demonstrations & Tutorials
+# About The Project
 
-Watch Complete Project Series on YouTube
+> A comprehensive solar power system implementation with inverter and smart switching capabilities, designed for efficient power management and seamless transition between power sources.
 
-Full build process
-System demonstrations
-Technical explanations
-Testing procedures
+# Project Overview 📋
 
+> Designed and implemented complete solar power system with inverter and switching capabilities
+>
+> Integrated automation for seamless power source transitions
+>
+> Implemented comprehensive safety features
 
-Table of Contents
+# Features ⚡
 
-Overview
-Features
-Components
-Implementation
-Setup
-Documentation
+### Core Functionalities
+* Automatic power source switching
+* Clean sine wave output generation
+* Real-time power monitoring
+* Safety overflow protection
+* Continuous system health checks
 
-Overview
+### Technical Details
+* DPDT relay-based switching system
+* PWM-driven inverter circuit
+* Advanced filtering system
+* Real-time monitoring
+* Automated safety protocols
 
-Designed and implemented complete solar power system with inverter and switching capabilities
-Integrated automation for seamless power source transitions
-Implemented comprehensive safety features
+# Components 🔧
 
-Features
-Core Functionalities
+### Hardware
+```
+1. Control Components
+   - Arduino control board
+   - DPDT relay switches
+   - Power transistors
+   - Low-pass filters
+   - Voltage sensors
+   - Protection circuits
+   - Power distribution system
+```
 
-Automatic power source switching
-Clean sine wave output generation
-Real-time power monitoring
-Safety overflow protection
-Continuous system health checks
+### Control Systems
+```
+1. Automation Systems
+   - Source switching automation
+   - PWM generation system
+   - Signal conditioning
+   - Safety monitoring
+```
 
-Technical Details
+### Software Elements
+```
+1. Control Logic
+   - PWM management
+   - Switch timing control
+   - Safety protocol execution
+```
 
-DPDT relay-based switching system
-PWM-driven inverter circuit
-Advanced filtering system
-Real-time monitoring
-Automated safety protocols
+# Implementation 🛠️
 
-Components
-Hardware
-
-Arduino control board
-DPDT relay switches
-Power transistors
-Low-pass filters
-Voltage sensors
-Protection circuits
-Power distribution system
-
-Control Systems
-
-Source switching automation
-PWM generation system
-Signal conditioning
-Safety monitoring
-
-Software Elements
-
-Control logic implementation
-PWM management
-Switch timing control
-Safety protocol execution
-
-Implementation
-Phase 1: Hardware Setup
-Copy1. Power Input System
-   └── Municipal Power Interface
-   └── Solar Panel Interface
-   └── Battery Bank Connection
-Phase 2: Control System
-Copy1. Arduino Control
-   └── PWM Generation
-   └── Switch Management
-   └── Safety Monitoring
-Phase 3: Output System
-Copy1. Inverter Circuit
-   └── Power Transistors
-   └── Wave Generation
-   └── Filtering System
-Setup
-Prerequisites
-
-Arduino IDE installed
-Basic electronic tools
-Component testing equipment
-Safety gear
-
-Installation Steps
-
-Hardware Assembly
-Copy- Mount control board
-- Install DPDT relays
-- Connect power transistors
-- Implement filtering system
-
-Software Setup
-Copy- Upload Arduino code
-- Configure parameters
-- Test switching system
-- Calibrate sensors
-
-
-Documentation
-Project Structure
-Copysolar-power-system/
+### System Architecture
+```
+solar-power-system/
 ├── src/
 │   ├── main.ino
 │   ├── pwm_control.h
@@ -122,36 +77,79 @@ Copysolar-power-system/
 │   ├── setup_guide.md
 │   └── maintenance.md
 └── README.md
-Code Structure
-cppCopy// Main control loop
+```
+
+### Core Code Structure
+```cpp
+// Main control loop example
 void loop() {
-    checkPowerLevels();
-    manageSwitching();
-    generatePWM();
-    monitorSafety();
+    checkPowerLevels();    // Monitor power inputs
+    manageSwitching();     // Handle power source transitions
+    generatePWM();         // Generate sine wave output
+    monitorSafety();       // Execute safety protocols
 }
-Safety Guidelines
+```
 
-⚠️ High Voltage System - Exercise Caution
-🔌 Ensure proper grounding
-🛡️ Use appropriate safety gear
-📋 Follow local electrical codes
+# Setup Guide 📝
 
-Contributing
-Guidelines
+### Prerequisites
+> - Arduino IDE installed
+> - Basic electronic tools
+> - Component testing equipment
+> - Safety gear
 
-Fork repository
-Create feature branch
-Commit changes
-Push to branch
-Submit pull request
+### Installation Steps
+1. Hardware Assembly
+```
+- Mount control board
+- Install DPDT relays
+- Connect power transistors
+- Implement filtering system
+```
 
-Code Standards
+2. Software Setup
+```
+- Upload Arduino code
+- Configure parameters
+- Test switching system
+- Calibrate sensors
+```
 
-Follow Arduino coding standards
-Document all functions
-Include safety checks
-Test thoroughly
+# Safety Guidelines ⚠️
 
-License
-MIT License - see LICENSE.md
+> **HIGH VOLTAGE SYSTEM - EXERCISE EXTREME CAUTION**
+>
+> - Ensure proper grounding
+> - Use appropriate safety gear
+> - Follow local electrical codes
+> - Never work alone on high voltage
+
+# Video Tutorial Series 🎥
+
+Check out the complete build and demonstration series:
+[Watch on YouTube](https://youtube.com/playlist?list=PLrZbkNpNVSwwD_J9fIVuv-2wGcsEDiuHB&si=SqdfEML56xazd_Uh)
+
+### Video Content:
+- Full build process walkthrough
+- System demonstrations
+- Technical explanations
+- Testing procedures
+- Safety guidelines
+
+# Contributing 🤝
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+# License 📄
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+# Contact 📬
+
+Email: hhnk3693@gmail.com
+
+Project Link: [https://github.com/HorizonHnk/Solar-Power-Management-System](https://github.com/HorizonHnk/Solar-Power-Management-System)
